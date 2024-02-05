@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chang'e Flying to the Moon - Chinese Mythology</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header id="daohang">
+        <nav>
+            <a href="index.html">Chang'e Flying to the Moon</a>
+            <a href="houyi.html">Hou Yi Shooting the Suns</a>
+            <a href="page3.html">Top 10 Chinese Myths</a>
+        </nav>
+    </header>
+
+    <section id="main-content">
+        <img src="https://img95.699pic.com/photo/40159/8261.jpg_wh300.jpg" alt="Chang'e" />
+        <p class="image-caption">Depiction of Chang'e, the Moon Goddess</p>
+
+        <h2>Historical Background</h2>
+        <p>Chang'e Flying to the Moon" is a beloved Chinese myth, embodying the blend of historical, cultural, and astronomical elements of ancient China. This legend is intricately woven into the fabric of Chinese folklore and is celebrated during the Mid-Autumn Festival, a significant cultural and lunar harvest festival in China.</p>
+
+       
+        <table>
+            <tr>
+                <th>Character</th>
+                <th>Role in the Myth</th>
+            </tr>
+            <tr>
+                <td>Chang'e</td>
+                <td>Moon Goddess, central figure of the myth</td>
+            </tr>
+            <tr>
+                <td>Hou Yi</td>
+                <td>Skilled archer, husband of Chang'e</td>
+            </tr>
+        </table>
+
+        
+        <h2>Key Themes</h2>
+        <ul>
+            <li>Lunar symbolism</li>
+            <li>Immortality and its consequences</li>
+            <li>Love and separation</li>
+        </ul>
+
+        <!-- Adding a selector -->
+        <h2>Explore More Myths</h2>
+        <label for="myth-selector">Choose a Myth:</label>
+        <select id="myth-selector">
+            <option value="#">Select a Myth</option>
+            <option value="index.html">Chang'e Flying to the Moon</option>
+            <option value="houyi.html">Hou Yi Shooting the Suns</option>
+            <option value="page3.html">Other Chinese Myths</option>
+        </select>
+
+        <h2>Ancient Poetry References</h2>
+        <blockquote>
+            <p>1. "Farewell to a Beauty" by Cui Ying (崔膺《别佳人》)</p>
+        </blockquote>
+        <blockquote>
+            <p> 2. "Shui Diao Ge Tou - When Will the Moon Be Clear and Bright?" by Su Shi (苏轼《水调歌头·明月几时有》)</p>
+        </blockquote>
+        <blockquote>
+            <p>3. "Chang'e" by Li Shangyin (李商隐的《嫦娥》)</p>
+        </blockquote>
+
+        <h2>The Metaphor of Chang'e</h2>
+        <p>The legend of Chang'e, the Moon Goddess in Chinese mythology, is more than just a mythical story; it's a profound metaphor that encapsulates themes of longing, consequence, and the human condition.</p>
+
+        <footer>
+            <p>For more fascinating stories, please visit <a href="houyi.html">Hou Yi Shooting the Suns</a>.</p>
+        </footer>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('myth-selector').addEventListener('change', function() {
+            var url = this.value;
+            if(url != '#') {
+                window.location.href = url;
+            }
+        });
+    </script>
+</body>
+</html>

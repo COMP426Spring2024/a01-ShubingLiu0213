@@ -1,0 +1,148 @@
+body {
+    font-size: 14px;
+    color: #333;
+    font-family: "Microsoft YaHei", sans-serif;
+    background-color: #fbf2cc;
+    margin: 0 auto;
+}
+
+#daohang {
+    height: 50px;
+    line-height: 50px;
+    background-color: #790505;
+    color: #341d17;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 3px solid #d9a033; 
+}
+
+#daohang a {
+    color: #d9a033;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header#daohang nav a {
+    margin: 0 15px;
+    color: #d9a033;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#daohang a:hover {
+    font-weight: bold;
+    color: #fff;
+}
+
+header#daohang nav {
+    display: flex;
+    justify-content: center;
+}
+
+#main-content {
+    width: 1200px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#main-content img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 10px auto 20px;
+}
+
+.image-caption {
+    text-align: center;
+    font-style: italic;
+    color: #6a6a6a;
+    margin-bottom: 20px;
+    font-family: "Arial", sans-serif; 
+}
+
+#main-content h2 {
+    color: #790505;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: "Georgia", serif;
+}
+
+#main-content p {
+    padding: 0 10px;
+    color: #000;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#main-content p a {
+    color: #790505;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main-content blockquote {
+    border-left: 4px solid #790505;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #f9f6f0;
+    font-style: italic;
+    color: #341d17;
+}
+
+#main-content blockquote p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #f9f6f0;
+    color: #790505;
+}
+
+footer a {
+    color: #790505;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* 新增选择器 */
+ul, ol {
+    margin: 20px;
+    padding-left: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+#main-content h2 + p {
+    font-size: 16px; /* 设置字体大小 */
+    color: #555; /* 改变颜色 */
+    background-color: #e0e0e0; /* 设置背景色 */
+    border-left: 4px solid #790505; /* 设置左边框 */
+    padding: 10px; /* 设置内边距 */
+    margin-bottom: 15px; /* 设置下外边距 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+    text-transform: capitalize; /* 首字母大写 */
+    line-height: 1.5; /* 设置行高 */
+}
+
